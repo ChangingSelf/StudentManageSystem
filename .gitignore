@@ -21,3 +21,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+# 如果需要添加图片文件，除非这些图片不会再变动了，否则不要轻易commit它们，在本地测试即可
+*.exe
+*.png
+*.jpg
+*.bmp
